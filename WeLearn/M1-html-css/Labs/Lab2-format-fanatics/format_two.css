@@ -16,7 +16,7 @@
 
 .container {
   display:grid;
-  /* Style the template for the grid */
+  grid-template-columns: 15px auto 15px;
 }
 
 /* Making border black */
@@ -25,11 +25,12 @@
 }
 
 #title {
-  grid-column: span 12;
+  grid-column: 2/span 12;
 }
 
 .photo {
-  grid-column: /*insert format*/;
+  grid-template-columns: auto auto auto;
+  grid-template-rows:
 }
 
 /* Style remaining grid elements */
