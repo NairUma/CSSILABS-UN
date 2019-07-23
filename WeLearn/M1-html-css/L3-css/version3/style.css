@@ -53,8 +53,7 @@ html {
 
 /* OR Style each row individually with these selectors */
 #row1 {
-  justify-content: flex-start;
-  align-items: flex-end;
+  border: 10px white;
 }
 
 #row2 {
