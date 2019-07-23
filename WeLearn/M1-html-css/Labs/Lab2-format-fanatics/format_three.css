@@ -15,5 +15,6 @@
  */
 
 .container {
-  grid-template-columns: /*think about using repeat and minmax here*/
+  grid-template-rows: auto-fit, minmax(1fr,100px);
+  display: grid;
 }
