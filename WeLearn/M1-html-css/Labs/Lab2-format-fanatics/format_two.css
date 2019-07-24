@@ -25,12 +25,37 @@
   background-color: black;
 }
 
+.sideL {
+  grid-row: span 7;
+}
+
+.top {
+  grid-column: span 9;
+}
+
+.sideR {
+  grid-row: span 7;
+}
+
+.bottom {
+  grid-column: span 9;
+}
+
 #title {
-  grid-column: span 12;
+  grid-column: span 9;
 }
 
 .photo {
-  grid-column: /*insert format*/;
+  grid-column: span 3;
+  grid-row: span 3;
+}
+
+.caption {
+  grid-column: span 7;
+}
+
+#date {
+  grid-column: span 2;
 }
 
 /* Style remaining grid elements */
