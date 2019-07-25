@@ -17,3 +17,13 @@ const top5 = {
 const seasons = ['Spring', 'Summer', 'Autumn', 'Winter'];
 const friends = ['Aspen', 'Cole', 'Charlie', 'Liv'];
 const numbers = ['7', '7', '7', '7', 'train', '7', '7'];
+
+const classes = [];
+classes.push({course: 'CS 111', title: 'Computer Science'});
+classes.push({course: 'MATH 125', title: 'Calculus I'});
+
+const party = {
+  date: '7/4/18',
+  location: 'Library',
+  guests: ['Mary', 'Joe', 'Sue']
+};
