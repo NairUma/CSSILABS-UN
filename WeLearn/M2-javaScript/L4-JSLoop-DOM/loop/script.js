@@ -1,3 +1,4 @@
+ /*
 const names = ['Alice', 'Bob', 'Charlie', 'Deborah', 'Evan'];
 
 console.log(names[0]);
@@ -23,6 +24,14 @@ const findTotal = ((item) => {
   sum = sum + item;
   console.log(sum);
 });
-
- /* console.log(names[0]);
 */
+
+const button = document.querySelectorAll('button');
+const box = document.querySelectorAll('#box');
+
+button.forEach((button) => {
+  button.addEventListener('click', () => {
+    const color = button.innerHTML;
+    box.style.background = color;
+  });
+});
