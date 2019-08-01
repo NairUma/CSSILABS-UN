@@ -26,6 +26,7 @@ class ShowMemeHandler(webapp2.RequestHandler):
         results_template = the_jinja_env.get_template('templates/results.html')
         meme_first_line = self.request.get('user-first-ln')
         meme_second_line = self.request.get('user-second-ln')
+        meme_third_line = self.request.get('user-third-ln')
         meme_img_choice = self.request.get('meme-type')
 
         user_meme = Meme(first_line = meme_first_line,
